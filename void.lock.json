@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "source": {
+    "name": "void-repro-observability",
+    "workers_dev": true,
+    "preview_urls": true,
+    "routes": [],
+    "observability": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "logs": {
+        "enabled": true,
+        "invocation_logs": true
+      },
+      "traces": {
+        "enabled": true,
+        "head_sampling_rate": 1
+      }
+    }
+  },
+  "resolved": {
+    "name": "void-repro-observability",
+    "workers_dev": true,
+    "preview_urls": true,
+    "routes": [],
+    "observability": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "logs": {
+        "enabled": true,
+        "invocation_logs": true
+      },
+      "traces": {
+        "enabled": true,
+        "head_sampling_rate": 1
+      }
+    },
+    "compatibility_date": "2026-02-24"
+  },
+  "text": "{\n  \"name\": \"void-repro-observability\",\n  \"workers_dev\": true,\n  \"preview_urls\": true,\n  \"routes\": [],\n  \"observability\": {\n    \"enabled\": true,\n    \"head_sampling_rate\": 1,\n    \"logs\": {\n      \"enabled\": true,\n      \"invocation_logs\": true\n    },\n    \"traces\": {\n      \"enabled\": true,\n      \"head_sampling_rate\": 1\n    }\n  },\n  \"compatibility_date\": \"2026-02-24\"\n}\n"
+}
